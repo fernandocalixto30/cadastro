@@ -1,8 +1,12 @@
-# React + Vite
+# Projeto de Página de Login e Cadastro com React e Supabase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de página de login e cadastro desenvolvido com **React** e **Supabase**. A aplicação permite aos usuários se cadastrar, realizar login e acessar suas informações de forma segura. A integração com o Supabase oferece autenticação, armazenamento e gerenciamento de usuários de forma prática e eficiente.
 
-Currently, two official plugins are available:
+## Funcionalidades:
+- Cadastro de novos usuários
+- Login com autenticação do Supabase
+- Validação de e-mail e senha
+- Feedback de erros e mensagens de sucesso
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você pode visualizar o projeto funcionando no seguinte link:  
+[Ver página de login e cadastro funcionando](https://cadastro-rosy.vercel.app/)
