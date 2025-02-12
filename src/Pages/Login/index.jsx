@@ -43,7 +43,7 @@ const Login = () => {
                     window.location.href = '/dashboard'; 
                     console.log('Usuário logado', user);
                     console.log('Nome do usuário:', userData.nome);
-                    alert(userData.nome);
+                 
                 }
             } else {
                 setErro('Usuário não encontrado ou erro no login');
