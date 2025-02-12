@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { supabase } from './../../../supabaseClient'; // Certifique-se de que o caminho está correto
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -82,8 +83,9 @@ const Login = () => {
             {erro && <div className="erro">{erro}</div>} {/* Exibe erros abaixo do botão */}
 
             <div className="links">
+              
                 <a href="#" className="link-esqueceu-senha">Esqueceu a senha?</a>
-                <p className="link-cadastrar">Não tem conta? <a href="/cadastro">Cadastre-se</a></p>
+                <p className="link-cadastrar">Não tem conta?  <Link to="/cadastro">Cadastre-se</Link> </p>
             </div>
         </form>
     );
